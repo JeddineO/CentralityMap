@@ -21,7 +21,7 @@ fetch('csvjson.json')
                 color: 'red',
                 fillColor: '#f03',
                 fillOpacity: 0.5,
-                radius: element.Centrality * 10000000
+                radius: element.Centrality * 10000
             }).addTo(map).bindPopup(element.Node + "<Br />" + "Centrality :" + element.Centrality);
         });
     })
